@@ -1,0 +1,15 @@
+{
+  "name": "@imcatwhocode/fish-to-zsh-history",
+  "module": "index.ts",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "yaml": "^2.4.2"
+  }
+}
