@@ -9,8 +9,9 @@ This is a simple script that converts your fish shell history to zsh history.
 Requires Bun.
 
 ```sh
-git clone https://github.com/imcatwhocode/fish-to-zsh-history
-cd fish-to-zsh-history
-bun install
-bun run index.ts > ~/.zsh_history
+# To preview output to stdout
+bun x github:imcatwhocode/fish-to-zsh-history
+
+# If you brave enough
+bun x github:imcatwhocode/fish-to-zsh-history > ~/.zsh_history
 ```

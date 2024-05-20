@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { readFileSync } from "fs";
 import { resolve } from "path";
 import { parse } from "yaml";
